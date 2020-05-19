@@ -1,0 +1,8 @@
+ID类特征：SaleID：交易ID，唯一编码；name：汽车交易名称，已脱敏
+汽车型号相关：model：车型编码；brand：汽车品牌；bodyType：车身类型；fuelType：燃油类型；
+gearbox:变速箱;power:发动机功率
+汽车动作相关：kilometer:汽车已行驶公里；notRepairedDamage：汽车有尚未修复的损坏；
+经销商特征：regionCode：地区编码；seller：销售方；offerType：报价类型；
+时间类特征：regDate：汽车注册日期；creatDate：汽车上线时间
+v系列特征：匿名特征，包含v0-14在内15个匿名特征
+price：二手车交易价格（预测目标）
